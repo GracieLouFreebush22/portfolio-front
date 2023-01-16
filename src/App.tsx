@@ -1,7 +1,7 @@
-import { greet } from "./utils/greet";
+import HomePage from "./HomePage";
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return <HomePage />;
 }
 
 export default App;
