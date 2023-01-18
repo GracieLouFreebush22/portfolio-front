@@ -14,11 +14,6 @@ function HomePage(): JSX.Element {
 
   return (
     <div>
-      <h1> Grace Kuperman </h1>
-      <button onClick={() => handleHome()}> HOME </button>
-      <button onClick={() => handleFullStack()}> FULL-STACK </button>
-      <button onClick={() => handleCreative()}> CREATIVE </button>
-      <button onClick={() => handleTeaching()}> TEACHING </button>
       <h2> Explore Content... </h2>
     </div>
   );
