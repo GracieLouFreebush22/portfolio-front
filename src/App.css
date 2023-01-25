@@ -1,15 +1,24 @@
+body{
+    background-color: rgb(243, 217, 233);
+}
+
 .ctn-app{
     background-color: rgb(240, 211, 235);
     text-align: center;
 }
 .ctn-nav{
     text-align: center;
-    border-color: pink;
-    border: solid 10px rgb(139, 152, 226);
+    background-color: rgb(209, 206, 243);
+    border: groove 10px rgb(112, 130, 235);
 }
+
+/* .ctn-nav:hover{
+    color:aqua;
+} */
 
 .header{
     text-align: center;
-    color: rgb(94, 105, 167);
-    border:solid 5px rgb(165, 27, 142);
+    color: rgb(45, 6, 68);
+    background-color: rgb(240, 211, 235);
+    padding: 10px;
 }
