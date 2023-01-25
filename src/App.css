@@ -1,0 +1,9 @@
+.ctn-app{
+    background-color: rgb(240, 211, 235);
+    text-align: center;
+}
+.ctn-nav{
+    text-align: center;
+    border-color: pink;
+    border: solid 10px rgb(139, 152, 226);
+}
