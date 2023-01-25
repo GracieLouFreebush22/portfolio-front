@@ -7,3 +7,9 @@
     border-color: pink;
     border: solid 10px rgb(139, 152, 226);
 }
+
+.header{
+    text-align: center;
+    color: rgb(94, 105, 167);
+    border:solid 5px rgb(165, 27, 142);
+}

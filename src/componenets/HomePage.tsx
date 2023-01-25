@@ -1,4 +1,4 @@
-
+import { languagesArr } from "../utils/languages";
 
 function HomePage(): JSX.Element {
   const handleHome = () => {
@@ -15,9 +15,19 @@ function HomePage(): JSX.Element {
   };
 
   return (
-    <div>
-      <h2> Explore Content... </h2>
-    </div>
+    <>
+      <div>
+        <h2> Explore Content... </h2>
+      </div>
+      <>
+       {languagesArr.map((el,i) => {
+        return (
+        <span key={i}> 🌟 {el} 🌟</span> 
+        )
+      })}
+       
+      </>
+    </>
   );
 }
 
