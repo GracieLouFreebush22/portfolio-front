@@ -11,7 +11,8 @@ function NavBar():JSX.Element{
             <Link to="/"> HOME | </Link>
             <Link to="/Projects"> PROJECTS | </Link>
             <Link to="/Creative"> CREATIVE |</Link>
-            <Link to="/Teaching"> TEACHING </Link>
+            <Link to="/Teaching"> TEACHING | </Link>
+            <Link to="/Media"> MEDIA </Link>
         </nav>
         </div>
         

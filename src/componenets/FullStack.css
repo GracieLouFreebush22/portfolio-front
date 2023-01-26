@@ -1,8 +1,8 @@
 
 .ctn-proj{
-    border-color: rgba(255, 0, 200, 0.74);
-    border-style: solid;
+    border:  groove 15px rgb(147, 145, 253);
     text-align: center;
+    padding-bottom: 30px;
     
 }
 

@@ -1,9 +1,8 @@
 body{
-    background-color: rgb(243, 217, 233);
+    background: linear-gradient(to bottom, #FF9B00 0%, #EC6EE8 21%, #4A18FE 100%);
 }
 
 .ctn-app{
-    background-color: rgb(240, 211, 235);
     text-align: center;
 }
 .ctn-nav{

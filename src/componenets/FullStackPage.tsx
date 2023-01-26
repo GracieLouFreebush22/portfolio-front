@@ -1,6 +1,7 @@
 import "./FullStack.css";
 import breedbattle from "../images/breedbattle.png"
 import tvShows from "../images/tvShows.png"
+import favPlaces from "../images/favPlaces.png"
 
 function FullStackPage(): JSX.Element{
    
@@ -11,6 +12,8 @@ function FullStackPage(): JSX.Element{
             <img src={breedbattle} alt="" width="600px" height="400px"/>
             <h3> TV Shows</h3>
             <img src={tvShows} alt="" width="600px" height="400px" />
+            <h3> Favorite Places</h3>
+            <img src={favPlaces} alt="" width="600px" height="400px" />
         </div>
     </div>
         
