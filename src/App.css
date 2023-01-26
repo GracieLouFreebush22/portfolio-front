@@ -7,7 +7,7 @@ body{
 }
 .ctn-nav{
     text-align: center;
-    background-color: rgb(209, 206, 243);
+    border-radius: 10px;
     border: groove 10px rgb(112, 130, 235);
 }
 
@@ -17,7 +17,6 @@ body{
 
 .header{
     text-align: center;
-    color: rgb(45, 6, 68);
-    background-color: rgb(240, 211, 235);
+    color: rgb(104, 41, 206);
     padding: 10px;
 }
