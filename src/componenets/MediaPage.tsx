@@ -1,21 +1,17 @@
-import { IMediaData } from "../utils/interfaces"
+import { mediaDataArr } from "../utils/mediaData";
 
-
-interface MediaPageProps {
-    picsForMediaPage: IMediaData[];
-}
-function MediaPage({picsForMediaPage}: MediaPageProps): JSX.Element{
+function MediaPage(): JSX.Element{
     return(
         <>
         <div>
-            { picsForMediaPage.map((pic) => {
+            { mediaDataArr.map((pic) => {
                 return (
-                    <ul key={pic.id}>
-                        <ul>
-                            <h2> {pic.title}</h2>
-                            <img src={pic.src} alt="" width="600px" height="500px"/>
-                        </ul> 
-                    </ul>
+                    <div key={pic.id}>
+                     <h2> {pic.title}</h2>
+                       <div>
+                        <img src={pic.img} alt="" width="800px" height="500px"/>
+                      </div>
+                    </div>
                 )
             })
 
