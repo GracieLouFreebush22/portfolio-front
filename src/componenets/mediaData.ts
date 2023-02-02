@@ -1,46 +1,46 @@
-import geyserIceland from "../images/mediaFldr/geyserIceland.jpg"
-import giantsCauseway from "../images/mediaFldr/giantsCauseway.jpg"
-import hugIceland from "../images/mediaFldr/hugIceland.jpg"
-import smallPony from "../images/mediaFldr/smallPony.jpg"
-import krakow from "../images/mediaFldr/krakow.jpg"
-import museumIceland from "../images/mediaFldr/museumIceland.jpg"
-
+import geyserSmall from "../images/geyserSmall.jpg"
+import giantsSmall from "../images/giantsSmall.jpg"
+import hugSmall from "../images/hugSmall.jpg"
+import ponySmall from "../images/ponySmall.png"
+import krakowSmall from "../images/krakow.jpg"
+import museumSmall from "../images/meseumSmall.jpg"
+import parisSmall from "../images/parisSmall.jpg"
 
 export const mediaDataArr = [
     {
         id: 0,
         title: "Geyser",
         location: "Iceland",
-        img: geyserIceland
+        img: geyserSmall
     },
     {
         id: 1,
         title: "Stepping Stones",
         location: "Giants Causeway",
-        img: giantsCauseway
+        img: giantsSmall
     },
     {
         id: 2,
         title: "Sisters",
         location: "Iceland",
-        img: hugIceland
+        img: hugSmall
     },
     {
         id: 3,
         title: "Pony",
         location: "Somewhere in Iceland",
-        img: smallPony
+        img: ponySmall
     },
     {
         id: 4,
         title: "Horse and Carriage",
         location: "Krakow, Poland",
-        img: krakow
+        img: krakowSmall
     },
     {
         id: 5,
         title: "Art Museum",
         location: "Rejkavik, Iceland",
-        img: museumIceland
+        img: museumSmall
     },
 ]
