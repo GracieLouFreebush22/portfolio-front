@@ -4,9 +4,6 @@ import "../App.css"
 function NavBar():JSX.Element{
     return(
         <div>
-            <div>
-                <h1 className="header"> Grace Kuperman </h1>
-            </div>
         <nav className= "ctn-nav" >
             <Link to="/"> HOME | </Link>
             <Link to="/Projects"> PROJECTS | </Link>

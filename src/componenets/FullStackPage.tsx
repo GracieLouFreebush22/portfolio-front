@@ -1,4 +1,4 @@
-import "./FullStack.css";
+import "../css/FullStack.css";
 import { fullStackDataArr } from "../utils/fullStackData";
 
 

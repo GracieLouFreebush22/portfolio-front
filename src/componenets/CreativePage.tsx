@@ -1,4 +1,4 @@
-import "./CreativePage.css"
+import "../css/CreativePage.css"
 function CreativePage(): JSX.Element{
 
     return (

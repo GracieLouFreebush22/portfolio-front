@@ -2,23 +2,23 @@
 .proj-ctn{
 
     text-align: center;
-    padding-bottom: 30px;
+    padding: 30px;
     border-radius: 25px;
     width:fit-content;
     height:max-content;
     margin: 50px;
-    display:flexbox;
+    display:inline-grid;
+    background-color: rgb(219, 204, 240);
 
     
 }
 
 .proj-img{
     width:fit-content;
-    padding: 50px;
-    background-color: rgb(219, 204, 240);
+    padding: 15px;
     border-radius: 25px;
     border-width: 12px;
-    
+    background-color: rgb(213, 147, 240);
 }
 
 

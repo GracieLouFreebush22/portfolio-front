@@ -26,7 +26,7 @@ useEffect(()=> {
   return (
     <>
       <div>
-        <h2> Explore Content... </h2>
+        <h2> Now Working in...</h2>
       </div>
       <div>
        {languagesArr.map((el,i) => {

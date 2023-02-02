@@ -1,5 +1,5 @@
 import { mediaDataArr } from "../utils/mediaData";
-import "./MediaPage.css";
+import "../css/MediaPage.css"
 
 
 function MediaPage(): JSX.Element{

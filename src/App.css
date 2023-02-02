@@ -2,7 +2,10 @@ body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: linear-gradient(to bottom, #FF9B00 0%, #EC6EE8 21%, #4A18FE 100%);
 }
-
+a {
+    text-decoration: none;
+    color:rgb(248, 236, 219);
+}
 .ctn-app{
     text-align: center;
 }
@@ -10,15 +13,14 @@ body{
     border-radius: 10px;
     top: 0;
     left: 0;
-    border: groove 10px rgb(112, 130, 235);
-    color:aliceblue;
+    border: groove 20px rgb(245, 5, 173);
+    background-color: #4A18FE;
     font-size: larger;
     width: fit-content;
     justify-content: flex-start;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     flex-direction:row;
-    color:aliceblue;
     font-size: xx-large;
  
 }
