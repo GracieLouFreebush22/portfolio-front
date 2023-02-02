@@ -2,8 +2,8 @@ import geyserSmall from "../images/geyserSmall.jpg"
 import giantsSmall from "../images/giantsSmall.jpg"
 import hugSmall from "../images/hugSmall.jpg"
 import ponySmall from "../images/ponySmall.png"
-import krakowSmall from "../images/krakow.jpg"
-import museumSmall from "../images/meseumSmall.jpg"
+import krakowSmall from "../images/krakowSmall.jpg"
+import museumSmall from "../images/museumSmall.jpg"
 import parisSmall from "../images/parisSmall.jpg"
 
 export const mediaDataArr = [
@@ -43,4 +43,11 @@ export const mediaDataArr = [
         location: "Rejkavik, Iceland",
         img: museumSmall
     },
+    {
+        id: 6,
+        title: "Eiffel Tower",
+        location: "Paris, France",
+        img: parisSmall
+    },
+    
 ]

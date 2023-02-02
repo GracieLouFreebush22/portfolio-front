@@ -1,4 +1,4 @@
-import { mediaDataArr } from "./mediaData";
+import { mediaDataArr } from "../utils/mediaData";
 import "./MediaPage.css";
 
 

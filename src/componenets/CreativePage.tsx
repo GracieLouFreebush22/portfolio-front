@@ -20,6 +20,14 @@ function CreativePage(): JSX.Element{
                 <iframe src="https://openprocessing.org/sketch/1811809/embed/" width="400" height="400"></iframe>
                 <p> One of my first projects back in Open Processing, practicing randomised movement! </p>
             </div>
+            <div>
+                <h3> Grid Circles</h3>
+                <iframe src="https://openprocessing.org/sketch/1818543/embed/" width="400" height="400"></iframe>
+            </div>
+            <div>
+                <h3> Pong </h3>
+                <iframe src="https://openprocessing.org/sketch/1811809/embed/" width="400" height="400"></iframe>
+            </div>
         </div>
         </>
         
