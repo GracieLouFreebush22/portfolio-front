@@ -1,9 +1,24 @@
 
-.ctn-proj{
-    border:  groove 15px rgb(147, 145, 253);
+.proj-ctn{
+
     text-align: center;
     padding-bottom: 30px;
-    border-radius: 10px;
+    border-radius: 25px;
+    width:fit-content;
+    height:max-content;
+    margin: 50px;
+    display:flexbox;
+
     
 }
+
+.proj-img{
+    width:fit-content;
+    padding: 50px;
+    background-color: rgb(219, 204, 240);
+    border-radius: 25px;
+    border-width: 12px;
+    
+}
+
 
