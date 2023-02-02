@@ -14,7 +14,13 @@ body{
     color:aliceblue;
     font-size: larger;
     width: fit-content;
+    justify-content: flex-start;
     padding: 50px;
+    display: flex;
+    flex-direction:row;
+    color:aliceblue;
+    font-size: xx-large;
+ 
 }
 
 /* .ctn-nav:hover{
@@ -23,6 +29,6 @@ body{
 
 .header{
     text-align: left;
-    color: rgb(104, 41, 206);
+    color: rgb(174, 140, 230);
     padding-left: 50px;
 }
