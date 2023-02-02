@@ -1,7 +1,7 @@
 import geyserIceland from "../images/mediaFldr/geyserIceland.jpg"
 import giantsCauseway from "../images/mediaFldr/giantsCauseway.jpg"
 import hugIceland from "../images/mediaFldr/hugIceland.jpg"
-import icelandPony from "../images/mediaFldr/icelandPony.jpg"
+import smallPony from "../images/mediaFldr/smallPony.jpg"
 import krakow from "../images/mediaFldr/krakow.jpg"
 import museumIceland from "../images/mediaFldr/museumIceland.jpg"
 
@@ -29,7 +29,7 @@ export const mediaDataArr = [
         id: 3,
         title: "Pony",
         location: "Somewhere in Iceland",
-        img: icelandPony
+        img: smallPony
     },
     {
         id: 4,
