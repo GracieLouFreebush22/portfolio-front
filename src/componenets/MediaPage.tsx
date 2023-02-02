@@ -1,5 +1,6 @@
 import { mediaDataArr } from "./mediaData";
 import ponySmall from "../images/ponySmall.jpg"
+import krakowSmal from "../images/krakowSmall.jpg"
 import "./MediaPage.css";
 
 
@@ -7,22 +8,19 @@ function MediaPage(): JSX.Element{
     return(
         <>
         <div>
-            <img src="PonySmall" alt=""/>
-        </div>
-        {/* <div>
             { mediaDataArr.map((pic) => {
                 return (
-                    <div className="media-ctn" key={props.id}>
-                     <h2> {props.title}</h2>
+                    <div className="media-ctn" key={pic.id}>
+                     <h2> {pic.title}</h2>
                        <div>
-                        <img src={props.img} alt="" className="media-img"/>
+                        <img src={pic.img} alt="" className="media-img"/>
                       </div>
                     </div>
                 )
             })
 
             }
-        </div>  */}
+        </div> 
       
         </>
     )
