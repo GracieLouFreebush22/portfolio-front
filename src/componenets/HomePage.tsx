@@ -1,29 +1,28 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { languagesArr } from "../utils/languages";
 import { fullStackDataArr } from "../utils/fullStackData";
 import { mediaDataArr } from "../utils/mediaData";
-interface IFullStackPrevProps {
-  id: number;
-  title: string;
-  img: string;
-}
+import { MediaPreviewPage } from "./MediaPreviewPage";
+import { FullStackPreviewPage } from "./FullStackPreviewPage";
+import { IFullStackPrevProps } from "../utils/interfaces";
+import { IMediaPreviewProps } from "../utils/interfaces";
 
-interface ICreativePreviewProps {
-  id: number;
-  title: string;
-  img: string;
-}
-function HomePage(props: IFullStackPrevProps): JSX.Element {
+function HomePage(): JSX.Element {
 const [fullStackPreview, setFullStackPreview]= useState<IFullStackPrevProps[]>([])
-const [mediaPreview, setMediaPreview] = useState<ICreativePreviewProps[]>([])
+const [mediaPreview, setMediaPreview] = useState<IMediaPreviewProps[]>([])
 
 const getFullStackPreview = async () => {
-  setFullStackPreview(fullStackDataArr)
+  setFullStackPreview(fullStackDataArr.slice(0,4))
 }
 
 const getCreativePagePreview = async () => {
-  setMediaPreview(mediaDataArr)
+  setMediaPreview(mediaDataArr.slice(0,4))
 }
+
+useEffect(()=> {
+  getFullStackPreview();
+  getCreativePagePreview();
+}, [])
   return (
     <>
       <div>
@@ -38,9 +37,9 @@ const getCreativePagePreview = async () => {
        
       </div>
       {/* --------------------------------projects sneak peek */}
-      < FullStackPreview fullStackPreview ={fullStackPreview}/>
+      < FullStackPreviewPage fullStackPreview ={fullStackPreview}/>
       {/* -------------------------------- creative sneak peek */}
-      < MediaPreview mediaPreview = {mediaPreview}/>
+      < MediaPreviewPage mediaPreview = {mediaPreview}/>
     </>
   );
 }
