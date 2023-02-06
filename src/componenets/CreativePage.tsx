@@ -52,7 +52,7 @@ function CreativePage(): JSX.Element {
             randomised movement!{" "}
           </p>
         </div>
-        <div>
+        <div className="grid-circles">
           <h3> Grid Circles</h3>
           <iframe
             src="https://openprocessing.org/sketch/1818543/embed/"
