@@ -1,22 +1,21 @@
-.ctn-art{
-    border: dashed 5px rgb(168, 118, 248);
+.ctn-art {
+  border: dashed 5px rgb(168, 118, 248);
 }
 
-.iso-groove{
-    border: solid 15px rgb(183, 130, 252);
-    background-color: rgb(233, 23, 252);
-    display:flexbox;
-    margin-left: 175pt;
-    margin-right: 175pt;
-    margin-top: 50pt;
-
+.iso-groove {
+  border: solid 15px rgb(183, 130, 252);
+  background-color: rgb(233, 23, 252);
+  display: flexbox;
+  margin-left: 175pt;
+  margin-right: 175pt;
+  margin-top: 50pt;
 }
 
-.random-mover{
-    border: solid 15px rgb(183, 130, 252);
-    background-color: rgb(23, 252, 252);
-    display:flexbox;
-    margin-left: 175pt;
-    margin-right: 175pt;
-    margin-top: 50pt;
+.random-mover {
+  border: solid 15px rgb(183, 130, 252);
+  background-color: rgb(23, 252, 252);
+  display: flexbox;
+  margin-left: 175pt;
+  margin-right: 175pt;
+  margin-top: 50pt;
 }

@@ -1,36 +1,35 @@
-body{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background: linear-gradient(to bottom, #FF9B00 0%, #EC6EE8 21%, #4A18FE 100%);
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background: linear-gradient(to bottom, #ff9b00 0%, #ec6ee8 21%, #4a18fe 100%);
 }
 a {
-    text-decoration: none;
-    color:rgb(248, 236, 219);
+  text-decoration: none;
+  color: rgb(248, 236, 219);
 }
-.ctn-app{
-    text-align: center;
+.ctn-app {
+  text-align: center;
 }
-.ctn-nav{
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    border: groove 20px rgb(245, 5, 173);
-    background-color: #4A18FE;
-    font-size: larger;
-    width: fit-content;
-    justify-content: flex-start;
-    padding: 20px;
-    display: flex;
-    flex-direction:row;
-    font-size: xx-large;
- 
+.ctn-nav {
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  border: groove 20px rgb(245, 5, 173);
+  background-color: #4a18fe;
+  font-size: larger;
+  width: fit-content;
+  justify-content: flex-start;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  font-size: xx-large;
 }
 
 /* .ctn-nav:hover{
     color:aqua;
 } */
 
-.header{
-    text-align: left;
-    color: rgb(174, 140, 230);
-    padding-left: 50px;
+.header {
+  text-align: left;
+  color: rgb(174, 140, 230);
+  padding-left: 50px;
 }

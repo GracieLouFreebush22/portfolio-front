@@ -1,23 +1,21 @@
-.media-img{
-    width: 100%;
-    height: 100%;
-    background-size: contain;
+.media-img {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
 }
 
-.media-img:hover{
-    background-color: red;
+.media-img:hover {
+  background-color: red;
 }
 
-.gallery{
-    margin: 5px;
-    border: pink opacity;
-    width: fit-content;
-    display: inline-grid;
- 
+.gallery {
+  margin: 5px;
+  border: pink opacity;
+  width: fit-content;
+  display: inline-grid;
+}
 
-  }
-  
-  .gallery:hover {
-    border: 10px solid rgb(217, 22, 235);
-    column-span: all;
-  }
+.gallery:hover {
+  border: 10px solid rgb(217, 22, 235);
+  column-span: all;
+}
