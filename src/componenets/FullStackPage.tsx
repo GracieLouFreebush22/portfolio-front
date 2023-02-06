@@ -2,6 +2,10 @@ import "../css/FullStack.css";
 import { fullStackDataArr } from "../utils/fullStackData";
 
 function FullStackPage(): JSX.Element {
+
+    const handleProjClciked= () => {
+        console.log("proj has been clicked")
+    }
   return (
     <div>
       {fullStackDataArr.map((item) => {
@@ -11,7 +15,11 @@ function FullStackPage(): JSX.Element {
             <p> {item.repoLink}</p>
 
             <div className="proj-img">
-              <img src={item.img} alt="" width="800px" height="450px" />
+               
+                    <a href={item.repoLink}>
+                    <img src={item.img} alt="" width="800px" height="450px"  />
+                    </a>
+               
             </div>
           </div>
         );
