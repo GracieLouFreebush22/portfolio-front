@@ -1,4 +1,5 @@
 import { IMediaPreviewProps } from "../utils/interfaces";
+import "../css/HomePage.css"
 
 interface IMediaPrevProps {
   mediaPreview: IMediaPreviewProps[];
@@ -9,11 +10,11 @@ export function MediaPreviewPage(props: IMediaPrevProps) {
   return (
     <>
       <h1> Media Preview</h1>
-      <div>
+      <div className="media-prev-ctn">
         {mediaProps.map((mediaProp, id) => {
           return (
-            <span key={id}>
-              <img src={mediaProp.img} alt="" />
+            <span className="media-prev"key={id}>
+              <img src={mediaProp.img} alt="" width="400px" height="250px"/>
             </span>
           );
         })}

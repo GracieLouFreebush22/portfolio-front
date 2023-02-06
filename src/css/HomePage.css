@@ -1,0 +1,28 @@
+.technologies{
+    font-size: larger;
+    color: black
+}
+
+.tech-one:hover{
+    color:blue;
+    font-size: x-large;
+}
+
+.media-prev-ctn{
+   border: 10px black;
+}
+.media-prev{
+    padding: 10px;
+
+}
+.proj-prev-ctn{
+    border: 10px black;
+}
+
+.proj-prev{
+    padding: 10px;
+}
+
+.proj-prev:hover{
+    font-size: larger;
+}
