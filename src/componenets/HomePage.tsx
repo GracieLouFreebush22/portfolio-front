@@ -6,7 +6,7 @@ import { MediaPreviewPage } from "./MediaPreviewPage";
 import { FullStackPreviewPage } from "./FullStackPreviewPage";
 import { IFullStackPrevProps } from "../utils/interfaces";
 import { IMediaPreviewProps } from "../utils/interfaces";
-import "../css/HomePage.css"
+import "../css/HomePage.css";
 
 function HomePage(): JSX.Element {
   const [fullStackPreview, setFullStackPreview] = useState<
@@ -33,7 +33,12 @@ function HomePage(): JSX.Element {
       </div>
       <div className="technologies">
         {languagesArr.map((el, i) => {
-          return <span className="tech-one" key={i}> 🌟 {el} 🌟</span>;
+          return (
+            <span className="tech-one" key={i}>
+              {" "}
+              🌟 {el} 🌟
+            </span>
+          );
         })}
       </div>
       {/* --------------------------------projects sneak peek */}

@@ -1,5 +1,5 @@
 import { IFullStackPrevProps } from "../utils/interfaces";
-import "../css/HomePage.css"
+import "../css/HomePage.css";
 
 interface IProjPreviewProps {
   fullStackPreview: IFullStackPrevProps[];
@@ -18,9 +18,6 @@ export function FullStackPreviewPage(props: IProjPreviewProps): JSX.Element {
           );
         })}
       </div>
-      
     </>
   );
 }
-
-

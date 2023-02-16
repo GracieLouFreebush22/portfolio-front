@@ -20,7 +20,7 @@
   margin-top: 50pt;
 }
 
-.ping-pong{
+.ping-pong {
   border: solid 15px rgb(183, 130, 252);
   background-color: rgb(233, 23, 252);
   display: flexbox;
@@ -29,7 +29,7 @@
   margin-top: 50pt;
 }
 
-.grid-circles{
+.grid-circles {
   border: solid 15px rgb(183, 130, 252);
   background-color: rgb(23, 252, 252);
   display: flexbox;

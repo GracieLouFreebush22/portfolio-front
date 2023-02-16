@@ -1,55 +1,53 @@
 /* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> */
 
-.technologies{
-    font-size: larger;
-    color: black
+.technologies {
+  font-size: larger;
+  color: black;
 }
 
-.tech-one:hover{
-    color:blue;
-    font-size: x-large;
+.tech-one:hover {
+  color: blue;
+  font-size: x-large;
 }
 
-.media-prev-ctn{
-   border: 10px black;
-   display: flex;
-   flex-wrap: nowrap;
-   overflow: hidden;
+.media-prev-ctn {
+  border: 10px black;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
 }
-.media-prev{
-    padding: 1px;
-    margin: 10px;
-    border-radius: .75cm;
-    background-color: rgb(92, 60, 110);
-    width: 100%;
-    border: 20px solid rgb(92, 60, 110);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 1s cubic-bezier(0.39,0.575,0.565, 1);
-
-
+.media-prev {
+  padding: 1px;
+  margin: 10px;
+  border-radius: 0.75cm;
+  background-color: rgb(92, 60, 110);
+  width: 100%;
+  border: 20px solid rgb(92, 60, 110);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
-.carousel-ctn{
-    border: 10px black;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: hidden;
+.carousel-ctn {
+  border: 10px black;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
 }
 
-.carousel-item{
-    padding: 1px;
-    margin: 10px;
-    border-radius: .75cm;
-    background-color: rgb(92, 60, 110);
-    width: 100%;
-    border: 20px solid rgb(92, 60, 110);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 1s cubic-bezier(0.39,0.575,0.565, 1);
+.carousel-item {
+  padding: 1px;
+  margin: 10px;
+  border-radius: 0.75cm;
+  background-color: rgb(92, 60, 110);
+  width: 100%;
+  border: 20px solid rgb(92, 60, 110);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
-.proj-prev:hover{
-    font-size: larger;
+.proj-prev:hover {
+  font-size: larger;
 }
