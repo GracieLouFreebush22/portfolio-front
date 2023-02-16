@@ -6,7 +6,7 @@
 }
 
 .tech-one:hover {
-  color: blue;
+  color: rgb(181, 149, 241);
   font-size: x-large;
 }
 
@@ -14,8 +14,33 @@
   border: 10px black;
   display: flex;
   flex-wrap: nowrap;
-  overflow: hidden;
+  overflow:scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    border:rgb(92, 60, 110) 10px;
+    border-radius: 10px;
+  }
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #b68ed6;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px;
+  }
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #e6dff0;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e0b1ff;
+    border-radius:10px;
+  }
+  
 .media-prev {
   padding: 1px;
   margin: 10px;
@@ -26,7 +51,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.photoTitle{
+    width: 500px;
+    height: 400px;
+    transform: rotate(15deg);
 }
 .carousel-ctn {
   border: 10px black;
@@ -50,4 +80,10 @@
 
 .proj-prev:hover {
   font-size: larger;
+}
+
+.projTitle{
+    width: 500px;
+    height: 400px;
+    transform: rotate(15deg);
 }
