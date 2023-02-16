@@ -8,7 +8,7 @@ function CreativePage(): JSX.Element {
       </h2>
       <div className="ctn-art">
         <div className="iso-groove">
-          <h3> "Iso-Groovy-Lines" </h3>
+          <h3 className="artTitle"> "Iso-Groovy-Lines" </h3>
           <iframe
             src="https://openprocessing.org/sketch/1785912/embed/"
             title="iso"
@@ -25,7 +25,7 @@ function CreativePage(): JSX.Element {
           </p>
         </div>
         <div className="random-mover">
-          <h3> "Random Mover</h3>
+          <h3 className="artTitle"> "Random Mover</h3>
           <iframe
             src="https://openprocessing.org/sketch/1785898/embed/"
             width="500"
@@ -39,7 +39,7 @@ function CreativePage(): JSX.Element {
           </p>
         </div>
         <div className="ping-pong">
-          <h3> Pong Game</h3>
+          <h3 className="artTitle"> Pong Game</h3>
           <iframe
             src="https://openprocessing.org/sketch/1811809/embed/"
             width="500"
@@ -53,7 +53,7 @@ function CreativePage(): JSX.Element {
           </p>
         </div>
         <div className="grid-circles">
-          <h3> Grid Circles</h3>
+          <h3 className="artTitle"> Grid Circles</h3>
           <iframe
             src="https://openprocessing.org/sketch/1818543/embed/"
             width="500"
