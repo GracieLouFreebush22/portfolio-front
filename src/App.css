@@ -1,6 +1,8 @@
 body {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  background: linear-gradient(to bottom, #ff9b00 0%, #ec6ee8 21%, #4a18fe 100%);
+  /* background: linear-gradient(to bottom, #ff9b00 0%, #ec6ee8 21%, #4a18fe 100%); */
+  background: rgb(61, 50, 66);
+  color: white;
 }
 a {
   text-decoration: none;
@@ -13,8 +15,8 @@ a {
   border-radius: 10px;
   top: 0;
   left: 0;
-  border: groove 20px rgb(245, 5, 173);
-  background-color: #4a18fe;
+  /* border: groove 20px rgb(245, 5, 173);
+  background-color: #4a18fe; */
   font-size: larger;
   width: fit-content;
   justify-content: flex-start;
@@ -23,7 +25,13 @@ a {
   flex-direction: row;
   font-size: xx-large;
 }
-
+.nav-item{
+  border:rgb(174, 140, 230) 5px solid;
+  background-color:rgb(174, 140, 230) ;
+  margin: 10px;
+  padding: 5px;
+  border-radius: .5cm;
+}
 /* .ctn-nav:hover{
     color:aqua;
 } */

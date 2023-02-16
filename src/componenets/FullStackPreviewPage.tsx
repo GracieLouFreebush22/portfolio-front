@@ -9,15 +9,18 @@ export function FullStackPreviewPage(props: IProjPreviewProps): JSX.Element {
   return (
     <>
       <h1> Full Stack preview</h1>
-      <div className="proj-prev-ctn">
+      <div className="carousel-ctn">
         {projProps.map((proj, id) => {
           return (
-            <span className="proj-prev" key={id}>
-              <img src={proj.img} alt="" width="400px" height="250px" />
-            </span>
+            <div className="carousel-item " key={proj.id}>
+              <img src={proj.img} alt="slide" width="400px" height="250px" />
+            </div>
           );
         })}
       </div>
+      
     </>
   );
 }
+
+

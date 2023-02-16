@@ -5,12 +5,11 @@ function NavBar(): JSX.Element {
   return (
     <div>
       <nav className="ctn-nav">
-        <Link to="/"> HOME | </Link>
-        <Link to="/Projects"> PROJECTS | </Link>
-        <Link to="/Creative"> CREATIVE |</Link>
-        <Link to="/Teaching"> TEACHING | </Link>
-        <Link to="/Media"> MEDIA | </Link>
-        <Link to="/About"> ABOUT </Link>
+        <Link to="/" className= "nav-item"> HOME </Link>
+        <Link to="/Projects" className= "nav-item"> PROJECTS  </Link>
+        <Link to="/Creative" className= "nav-item"> CREATIVE </Link>
+        <Link to="/Media" className= "nav-item"> MEDIA  </Link>
+        <Link to="/About" className= "nav-item"> ABOUT </Link>
       </nav>
     </div>
   );
