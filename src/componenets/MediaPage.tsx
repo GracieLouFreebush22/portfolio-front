@@ -8,9 +8,9 @@ function MediaPage(): JSX.Element {
         {mediaDataArr.map((pic) => {
           return (
             <div className="gallery" key={pic.id}>
-              <div>
+              {/* <div>
                 <h2> {pic.title}</h2>
-              </div>
+              </div> */}
               <div>
                 <img src={pic.img} alt="" className="media-img" />
               </div>
