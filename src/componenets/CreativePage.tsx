@@ -17,12 +17,6 @@ function CreativePage(): JSX.Element {
           >
             {" "}
           </iframe>
-          <p>
-            {" "}
-            A piece of work adapted from an example of Isolines. Scale of the
-            lines displayed adjusted by user's mouse movements. Knowledge gained
-            includes use of dynamic data.
-          </p>
         </div>
         <div className="random-mover">
           <h3 className="artTitle"> "Random Mover</h3>
@@ -32,11 +26,6 @@ function CreativePage(): JSX.Element {
             height="600"
             title="mover"
           ></iframe>
-          <p>
-            {" "}
-            One of my first projects back in Open Processing, practicing
-            randomised movement!{" "}
-          </p>
         </div>
         <div className="ping-pong">
           <h3 className="artTitle"> Pong Game</h3>
@@ -46,11 +35,6 @@ function CreativePage(): JSX.Element {
             height="600"
             title="pong"
           ></iframe>
-          <p>
-            {" "}
-            One of my first projects back in Open Processing, practicing
-            randomised movement!{" "}
-          </p>
         </div>
         <div className="grid-circles">
           <h3 className="artTitle"> Grid Circles</h3>

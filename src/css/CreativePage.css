@@ -1,8 +1,7 @@
 
 
 .iso-groove {
-  display: flex;
-  flex-wrap: nowrap;
+  display: inline-grid;
   width: max-content;
   margin-left: 175pt;
   margin-right: 175pt;
@@ -10,8 +9,7 @@
 }
 
 .random-mover {
-  display: flex;
-  flex-wrap: nowrap;
+  display: inline-grid;
   width: max-content;
   margin-left: 175pt;
   margin-right: 175pt;
@@ -19,7 +17,7 @@
 }
 
 .ping-pong {
-  display: flex;
+  display: inline-grid;
   flex-wrap: nowrap;
   width: max-content;
   margin-left: 175pt;
@@ -28,7 +26,7 @@
 }
 
 .grid-circles {
-  display: flex;
+  display: inline-grid;
   flex-wrap: nowrap;
   width: max-content;
   margin-left: 175pt;
@@ -40,7 +38,9 @@
   background-color: rgb(98, 0, 255);
   width: fit-content;
   height: fit-content;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 5cm;;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 170px;
+  border-radius: 5cm;
+  display:inline-grid;
 }
